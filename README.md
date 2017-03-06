@@ -51,7 +51,7 @@ Depending on your documentation, this will output a JSON file that looks somethi
       "content": "<button>This is a button</button>"
     },
     "group": "buttons",
-    "file": "/Users/marc.wren/Development/gulp-dss/examples/foo.sass"
+    "file": "/path/to/file.sass"
   }
 ]
 ```
