@@ -1,22 +1,22 @@
 {
-  "name": "gulp-dss",
+  "name": "gulp-sassdoc-2-json",
   "version": "0.0.1",
-  "description": "A plugin for Gulp to generate UI documentation with the DSS Parser",
+  "description": "A Gulp plugin to parse SassDoc documentation into a JSON file.",
   "main": "index.js",
   "author": {
-    "name": "Darcy Clarke",
-    "email": "darcy@darcyclarke.me",
-    "url": "http://darcyclarke.me"
+    "name": "Marc Wren",
+    "email": "things@soul-fresh.com",
+    "url": "http://soul-fresh.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/DSSWG/gulp-dss"
+    "url": "https://github.com/soulfresh/gulp-sassdoc-2-json"
   },
   "scripts": {
     "test": "jasmine-node spec/ --coffee"
   },
   "bugs": {
-    "url": "https://github.com/DSSWG/gulp-dss/issues"
+    "url": "https://github.com/soulfresh/gulp-sassdoc-2-json/issues"
   },
   "dependencies": {
     "dss": "1.0.4",
@@ -37,8 +37,7 @@
   "standard": {
     "ignore": [
       "examples",
-      "docs",
-      "templates"
+      "docs"
     ]
   }
 }
